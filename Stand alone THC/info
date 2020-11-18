@@ -1,0 +1,387 @@
+{
+  "uuid": "7c0a8321019e18b9680e8c9b7a902286",
+  "path": "Offline/Stand alone THC",
+  "name": "Stand alone THC",
+  "content": "A stand alone THC for grbl.",
+  "created_at": "2020-11-10 07:35:18",
+  "updated_at": "2020-11-18 14:30:17",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "69188ad1d7aec2040a029ad4bcb1f164",
+      "title": "Sheet_2",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "93b05b65dc854414b3026f971a535e44": 1,
+        "a1a68e8402b9461199345d2cae776c3f": 5,
+        "f5b1d9403e49471cab43bc5a1bec336f": 1,
+        "b1beab7fb9ba429596b9a2cbcbdafa9d": 1,
+        "8850ffcdb9d242a1b431d4a3e2209db1": 3,
+        "8cb0931e7aee4571ab281a4f2e7b6e80": 1,
+        "a68dc5e6a9944c46b7604648a43dcd65": 1,
+        "a052559478a14ee2b9e3514bee4ff72d": 1,
+        "e0b0d01b6e0d44dbab9db0ad79a427bc": 1,
+        "a9aa2b14f188405792fa87ac344499a4": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "CONN-TH_2P-P5.00",
+          1,
+          "CONN-TH_2P-P5.00",
+          "P2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "be1b3456245c4373bfecde52b7e1b1d6",
+            "uuid": "8cb0931e7aee4571ab281a4f2e7b6e80"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "ARDUINO_NANO",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "956db0a5406d4f7b9062ee3957538e31",
+            "uuid": "93b05b65dc854414b3026f971a535e44"
+          }
+        ],
+        [
+          "LED-TH-5mm_R",
+          3,
+          "LED-TH_BD5.0_RED",
+          "LED2,LED3,LED1",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "333-2SURD/S530-A3",
+            "BOM_Supplier Part": "C87271",
+            "BOM_Supplier": "LCSC",
+            "puuid": "ce0ed154d45b41508e0debca8473ba07",
+            "uuid": "8850ffcdb9d242a1b431d4a3e2209db1"
+          }
+        ],
+        [
+          "220",
+          3,
+          "R_AXIAL-0.3",
+          "R2,R3,R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R_AXIAL-0.3",
+          "R5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R_AXIAL-0.3",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J1",
+          {
+            "BOM_Supplier Part": "C124375",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "ArcV Adj",
+          1,
+          "HDR-M-2.54_1X3",
+          "J3",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x5",
+          1,
+          "HDR-M-2.54_1X5",
+          "J4",
+          {
+            "BOM_Supplier Part": "C358687",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "108969f8d9834a9ea23bcec2d43a66e4",
+            "uuid": "a052559478a14ee2b9e3514bee4ff72d"
+          }
+        ],
+        [
+          "Hypertherm",
+          1,
+          "CONN-TH_3P-P5.00",
+          "P1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "22a191264369408f990ade28dd13460b",
+            "uuid": "b1beab7fb9ba429596b9a2cbcbdafa9d"
+          }
+        ],
+        [
+          "R_3386P_US",
+          1,
+          "RES-ADJ-TH_3386P",
+          "RP2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "BOM_value(Ω)": "10K",
+            "puuid": "ce6e0cc9b0684cd986edbf86d7075dfd",
+            "uuid": "e0b0d01b6e0d44dbab9db0ad79a427bc"
+          }
+        ],
+        [
+          "LCD i2C",
+          1,
+          "HDR-M-2.54_1X4",
+          "J2",
+          {
+            "BOM_Supplier Part": "C124378",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "282f7786cb6144d097ae00194c3e3fb3",
+            "uuid": "f5b1d9403e49471cab43bc5a1bec336f"
+          }
+        ]
+      ],
+      "updateTime": 1605486055,
+      "createTime": 1604957740,
+      "histories": [],
+      "created_at": "2020-11-10 07:35:40",
+      "updated_at": "2020-11-16 10:20:55"
+    },
+    {
+      "uuid": "8231b1f24be9fa0cfaf57785838a8a48",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "CONN-TH_2P-P5.00",
+          1,
+          "CONN-TH_2P-P5.00",
+          "P2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "be1b3456245c4373bfecde52b7e1b1d6",
+            "uuid": "8cb0931e7aee4571ab281a4f2e7b6e80"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "ARDUINO_NANO",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "956db0a5406d4f7b9062ee3957538e31",
+            "uuid": "93b05b65dc854414b3026f971a535e44"
+          }
+        ],
+        [
+          "LED-TH-5mm_R",
+          3,
+          "LED-TH_BD5.0_RED",
+          "LED3,LED1,LED2",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "333-2SURD/S530-A3",
+            "BOM_Supplier Part": "C87271",
+            "BOM_Supplier": "LCSC",
+            "puuid": "ce0ed154d45b41508e0debca8473ba07",
+            "uuid": "8850ffcdb9d242a1b431d4a3e2209db1"
+          }
+        ],
+        [
+          "220",
+          3,
+          "R_AXIAL-0.3",
+          "R2,R3,R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R_AXIAL-0.3",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "ArcV Adj",
+          1,
+          "HDR-M-2.54_1X3",
+          "J3",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x5",
+          1,
+          "HDR-M-2.54_1X5",
+          "J4",
+          {
+            "BOM_Supplier Part": "C358687",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "108969f8d9834a9ea23bcec2d43a66e4",
+            "uuid": "a052559478a14ee2b9e3514bee4ff72d"
+          }
+        ],
+        [
+          "Hypertherm",
+          1,
+          "CONN-TH_3P-P5.00",
+          "P1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "22a191264369408f990ade28dd13460b",
+            "uuid": "b1beab7fb9ba429596b9a2cbcbdafa9d"
+          }
+        ],
+        [
+          "LCD i2C",
+          1,
+          "HDR-M-2.54_1X4",
+          "J2",
+          {
+            "BOM_Supplier Part": "C124378",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "282f7786cb6144d097ae00194c3e3fb3",
+            "uuid": "f5b1d9403e49471cab43bc5a1bec336f"
+          }
+        ]
+      ],
+      "updateTime": 1604958735,
+      "createTime": 1604958735,
+      "histories": [],
+      "created_at": "2020-11-10 07:52:15",
+      "updated_at": "2020-11-10 07:52:15"
+    },
+    {
+      "uuid": "851c86fc3059ac459dc5aa8e08544449",
+      "puuid": "b22edb1585b8a8d13aa6a5dede7f13d8",
+      "title": "PCB_2020-10-27_16-07-07",
+      "filename": "PCB_2020-10-27_16-07-07.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3eb1249f3ebb4284ae221b0379016582": 5,
+        "70aa5812f21f4991bf427395d51849f4": 1,
+        "ce6e0cc9b0684cd986edbf86d7075dfd": 1,
+        "108969f8d9834a9ea23bcec2d43a66e4": 1,
+        "be1b3456245c4373bfecde52b7e1b1d6": 1,
+        "956db0a5406d4f7b9062ee3957538e31": 1,
+        "22a191264369408f990ade28dd13460b": 1,
+        "282f7786cb6144d097ae00194c3e3fb3": 1,
+        "ce0ed154d45b41508e0debca8473ba07": 3,
+        "9f77654394344f25b3de138e0fe05ff6": 1
+      },
+      "BOM": [],
+      "updateTime": 1605673817,
+      "createTime": 1604957729,
+      "histories": [],
+      "created_at": "2020-11-10 07:35:29",
+      "updated_at": "2020-11-18 14:30:17"
+    }
+  ],
+  "sort": [
+    "69188ad1d7aec2040a029ad4bcb1f164",
+    "8231b1f24be9fa0cfaf57785838a8a48"
+  ],
+  "title": "Stand alone THC",
+  "foldername": "Stand alone THC",
+  "schfilename": "Stand alone THC.json",
+  "schfilemtime": 1605486055377
+}
